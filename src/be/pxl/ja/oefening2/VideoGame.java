@@ -13,7 +13,7 @@ public class VideoGame {
         this.name = name;
         this.price = price;
         this.score = score;
-        for(int i=0;i<genres.length;i++)
+        for (int i = 0; i < genres.length; i++)
             this.genres.add(genres[i].toLowerCase());
     }
 
